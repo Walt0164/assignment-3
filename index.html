@@ -4,15 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Verdana&display=swap" rel="stylesheet">
   <title>Assignment 3</title>
 </head>
 <body>
 
-  <header>
-    <div>
-      <span>Emily Parker</span>
+  <header> 
+    <div class="header-wrapper">
+      <span class="header-left"> Emily Parker</span>
       
-      <nav>
+      <nav class="header-right">
         <ul>
           <li><a href="#">About Me</a></li>
           <li><a href="#">Services</a></li>
@@ -28,8 +30,8 @@
 
   <main>
     <section id="about-me">
-      <div>
-        <div>
+      <div class="wrapper">
+        <div class="content">
           <h2>About Me.</h2>
           <p>I'm a seasoned graphic designer with a penchant for bringing brands to life through captivating visuals and immersive digital experiences. With a background rooted in both creativity and strategy, I've spent years honing my craft to deliver designs that not only look stunning but also drive real results.</p>
           <p>Specializing in brand identity and web design, I thrive on the challenge of distilling complex ideas into simple yet impactful visual elements. </p>
@@ -40,11 +42,11 @@
       </div>
     </section>
     
-    <section id="services">
-      <div>
+    <section id="services" >
+      <div class="wrapper2">
         <h2>What I can do for you...</h2>
         
-        <div>
+      <div class="services-grid">
           <article>
             <h3>Logo Creation</h3>
             <p>Your logo is the face of your brand and the first thing that potential customers will see, so it's crucial to make a great first impression. I can help create a logo that is both visually stunning and effective in representing your brand.</p>
@@ -67,23 +69,23 @@
     </section>
     
     <section id="work">
-      <div>
+      <div class="wrapper3">
         <h2>My Work</h2>
         <p>I believe that life is all about balance, and finding inspiration in the world around us is key to staying creative and motivated. In addition to my portfolio of design work, here are a few of my latest pieces.</p>
         
-        <div>
-          <img src="images/portfolio-piece-1.jpg" alt="">
-          <img src="images/portfolio-piece-2.jpg" alt="">
-          <img src="images/portfolio-piece-3.jpg" alt="">
-          <img src="images/portfolio-piece-4.jpg" alt="">
-          <img src="images/portfolio-piece-5.jpg" alt="">
+        <div class="field-6">
+          <img src="images/portfolio-piece-1.jpg" alt="block1" class="block1">
+          <img src="images/portfolio-piece-2.jpg" alt="block2" class="block2">
+          <img src="images/portfolio-piece-3.jpg" alt="block3" class="block3">
+          <img src="images/portfolio-piece-4.jpg" alt="block4" class="block4">
+          <img src="images/portfolio-piece-5.jpg" alt="block5" class="block5">
         </div>
       </div>
     </section>
 
   </main>
     
-  <footer>
+  <footer class="footer">
       <small>&copy; Emily Parker 2024</small>
   </footer>
 </body>
